@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbfaf2;
+    color: #333333;
+}
 .logo { 
-    font-size: 40px; 
+    font-size: 30px; 
     font-weight: bold; 
     color: #333; 
     text-decoration: none;
@@ -12,10 +18,10 @@ nav ul li {
     font-weight: 300;
 }
 nav ul li a {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #555;
-    font-weight: 900;
+    font-weight: 700;
     padding: 5px 10px;
     border: 1px solid transparent;
     display: flex;
