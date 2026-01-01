@@ -1,5 +1,5 @@
 .logo { 
-    font-size: 2vw; 
+    font-size: 40px; 
     font-weight: bold; 
     color: #333; 
     text-decoration: none;
@@ -9,10 +9,10 @@ nav ul li {
     text-decoration: none;
     list-style-type: none;
     color: #555;
-    font-weight: 900;
+    font-weight: 300;
 }
 nav ul li a {
-    font-size: 1vw;
+    font-size: 20px;
     text-decoration: none;
     color: #555;
     font-weight: 900;
@@ -37,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 10vw;
     
 }
 nav {
@@ -51,4 +52,14 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+nav ul li.contact a {
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #004186;
+    border-radius: 5px;
+}
+nav ul li.contact a:hover {
+    background-color: #0056b3;
+    border: 1px solid #003366;
 }
