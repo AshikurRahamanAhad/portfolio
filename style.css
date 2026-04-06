@@ -154,7 +154,43 @@ footer p {
     font-style: italic;
     margin: 0;
 }
-#orcid {
-    width: 1em; 
-    margin-right: 0.5em"
+/* The container for all icons */
+.footer-social-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Space between the social buttons */
+    padding: 30px 0;
+}
+
+/* Individual Link Styling */
+.social-item {
+    display: flex;
+    flex-direction: column; /* Stacks icon on top of text */
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.social-item:hover {
+    transform: translateY(-5px); /* Small lift effect on hover */
+}
+
+/* Icon Styling */
+.social-item img {
+    width: 16px;  /* Size of the icon */
+    height: 16px;
+    margin-bottom: 4px; /* Space between icon and name */
+}
+
+/* App Name Styling */
+.social-item span {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #555; 
+    font-family: sans-serif;
+}
+
+.social-item:hover span {
+    color: #000; /* Text darkens on hover */
 }
