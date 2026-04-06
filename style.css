@@ -42,14 +42,19 @@ nav ul li a:hover {
     color: #fff;
 }
 header {
-    background-color: #f8f8f8;
+    background-color: #d8f3ff;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10vw;
-    
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 1000;
+    border-radius: 0 0 15px 15px;
 }
 nav {
     display: flex;
@@ -84,6 +89,7 @@ main {
     text-align: center;
     min-height: 70vh; /* Keeps content centered vertically */
     padding: 0 10vw;
+    margin-top: 80px; /* Account for fixed navbar */
 }
 
 .hero h1 {
