@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  left: 1vw;
-  right: 1vw;
-}
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -136,7 +130,7 @@ main {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   color: #1a1a1a;
 }
