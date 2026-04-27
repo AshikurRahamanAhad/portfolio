@@ -83,25 +83,6 @@ nav ul li.contact a:hover {
   border: 1px solid #003366;
 }
 
-.nav-toggle {
-  display: none;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.nav-toggle span {
-  display: block;
-  width: 24px;
-  height: 2px;
-  margin: 5px 0;
-  background: #333;
-  transition:
-    transform 0.25s ease,
-    opacity 0.25s ease;
-}
-
 .nav-links.open {
   display: flex;
 }
@@ -262,6 +243,12 @@ footer p {
   margin-bottom: 4px; /* Space between icon and name */
 }
 
+.social-item svg {
+  width: 16px; /* Size of the icon */
+  height: 16px;
+  margin-bottom: 4px; /* Space between icon and name */
+}
+
 /* App Name Styling */
 .social-item span {
   font-size: 0.85rem;
@@ -272,4 +259,11 @@ footer p {
 
 .social-item:hover span {
   color: #000; /* Text darkens on hover */
+}
+.footer-social-grid {
+  display: flex; 
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px; 
+  align-items: center;
 }
