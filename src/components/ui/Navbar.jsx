@@ -21,8 +21,7 @@ export default function Navbar() {
             alt="Ashikur Rahaman Ahad Logo" 
             width={40} 
             height={40} 
-            className="h-10 w-auto"
-            style={{ width: "auto" }} 
+            className="w-auto h-auto"
             priority 
           />
         </a>
