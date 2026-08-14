@@ -4,11 +4,6 @@ export const personSchema = {
   "name": "Ashikur Rahaman Ahad",
   "alternateName": [
     "MD Ashikur Rahaman Ahad",
-    "Ash!k",
-    "Ashikur Ahad",
-    "ARA",
-    "Ashikur Rahaman",
-    "Ashikur R. Ahad",
     "Ashikur Rahaman Ahad",
     "Ashikur Rahman Ahad",
     "ashikur rahaman ahad",
