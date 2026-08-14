@@ -9,7 +9,10 @@ export const personSchema = {
     "ARA",
     "Ashikur Rahaman",
     "Ashikur R. Ahad",
-    "Ashikur Rahaman Ahad"
+    "Ashikur Rahaman Ahad",
+    "Ashikur Rahman Ahad",
+    "ashikur rahaman ahad",
+    "ashikur Rahaman Ahad"
   ],
   "url": "https://ashikurrahamanahad.vercel.app/",
   "jobTitle": "Software Engineer & Full-stack Developer",
