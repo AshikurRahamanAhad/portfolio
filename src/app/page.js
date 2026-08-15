@@ -16,7 +16,7 @@ export default function Home() {
       </main>
       <footer className="pt-5 pb-10 text-center">
         <p className="m-0 text-slate-500 text-xs sm:text-sm">
-          © 2026 Ashikur Rahaman Ahad.
+          © 2026 Ashikur Rahaman Ahad • Built with Next.js & Tailwind CSS
         </p>
       </footer>
     </>
