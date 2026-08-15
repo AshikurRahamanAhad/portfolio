@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between w-full p-2.5 sm:px-6 sm:py-3 bg-white/90 backdrop-blur-md border border-blue-600/15 shadow-xl shadow-blue-900/5 rounded-2xl">
         
         {/* Logo */}
-        <a className="inline-flex items-center no-underline " href="#top" aria-label="Ashikur Rahaman Ahad home">
+        <a className="inline-flex items-center no-underline " href="#home" aria-label="Ashikur Rahaman Ahad home">
           <Image 
             src="/ashikur-rahaman-ahad-logo.svg" 
             alt="Ashikur Rahaman Ahad Logo" 

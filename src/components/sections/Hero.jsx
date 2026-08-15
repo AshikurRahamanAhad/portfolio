@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-7 sm:p-12 bg-linear-to-br from-white to-blue-50/50 border border-blue-100 rounded-2xl sm:rounded-[30px] shadow-xl shadow-blue-900/5" id="top">
+    <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center p-7 sm:p-12 bg-linear-to-br from-white to-blue-50/50 border border-blue-100 rounded-2xl sm:rounded-[30px] shadow-xl shadow-blue-900/5" id="home">
       {/* Left Column */}
       <div className="lg:col-span-7 flex flex-col items-start">
         <span className="inline-block px-2.5 py-1 rounded-full bg-blue-600/10 text-blue-700 uppercase tracking-wider text-[11px] font-extrabold">Software Engineer and Full-stack developer</span>
