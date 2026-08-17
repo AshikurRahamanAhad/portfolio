@@ -124,6 +124,15 @@ export default function Navbar() {
             </li>
             <li>
               <a 
+                href="#education-section" 
+                onClick={closeDrawer}
+                className="block py-3 px-4 rounded-xl hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors"
+              >
+                Education
+              </a>
+            </li>
+            <li>
+              <a 
                 href="/Ashikur_Rahaman_Ahad_Resume.pdf" 
                 download 
                 onClick={closeDrawer}
