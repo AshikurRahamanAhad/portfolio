@@ -3,7 +3,7 @@ export default function Education() {
   return (
     <>
       {/* Education Section */}
-      <section className="mt-10 p-6 sm:p-8 bg-white/90 border border-blue-600/10 rounded-2xl sm:rounded-3xl shadow-xl shadow-blue-900/5">
+      <section id="education" className="mt-10 p-6 sm:p-8 bg-white/90 border border-blue-600/10 rounded-2xl sm:rounded-3xl shadow-xl shadow-blue-900/5">
         <div className="mb-5">
           <span className="inline-block px-2.5 py-1 rounded-full bg-blue-600/10 text-blue-700 uppercase tracking-wider text-[11px] font-extrabold">Education</span>
           <h2 className="mt-2.5 mb-0 text-2xl sm:text-3xl font-bold text-slate-900">Academic background</h2>

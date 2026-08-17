@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import ProjectGrid from "@/components/sections/ProjectGrid";
 import About from "@/components/sections/About";
 import Connect from "@/components/sections/Connect";
+import Education from "@/components/sections/Education";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="max-w-295 mx-auto pt-28 sm:pt-36 pb-12 px-5">
         <Hero />
         <ProjectGrid />
+        <Education />
         <About />
         <Connect/>
       </main>

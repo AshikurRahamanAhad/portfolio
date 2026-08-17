@@ -39,6 +39,11 @@ export default function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#education" className="no-underline text-slate-700 text-sm font-bold px-3 py-1.5 rounded-full hover:bg-blue-600/10 hover:text-blue-700 transition-all duration-200">
+              Education
+            </a>
+          </li>
+          <li>
             <a href="/Ashikur_Rahaman_Ahad_Resume.pdf" download className="no-underline text-slate-700 text-sm font-bold px-3 py-1.5 rounded-full border border-blue-600/40 hover:bg-blue-600/10 hover:text-blue-700 transition-all duration-200">
               Resume
             </a>
@@ -124,7 +129,7 @@ export default function Navbar() {
             </li>
             <li>
               <a 
-                href="#education-section" 
+                href="#education" 
                 onClick={closeDrawer}
                 className="block py-3 px-4 rounded-xl hover:bg-blue-50 text-slate-700 hover:text-blue-600 transition-colors"
               >
