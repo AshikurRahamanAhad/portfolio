@@ -1,6 +1,6 @@
 export default function Background() {
   return (
-    <div className="relative h-full w-full bg-slate-950 overflow-hidden">
+    <div className="relative h-full w-full bg-slate-800 overflow-hidden">
       {/* Moving Ambient Glowing Blobs */}
       <div className="absolute top-1/4 -left-20 w-96 h-96 bg-sky-600/30 rounded-full blur-3xl animate-blob" />
       <div className="absolute top-1/3 -right-20 w-96 h-96 bg-blue-600/30 rounded-full blur-3xl animate-blob animation-delay-2000" />
