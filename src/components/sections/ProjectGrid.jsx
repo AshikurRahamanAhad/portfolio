@@ -13,7 +13,9 @@ export default function ProjectGrid() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          
           <NewsPaperProjectCard />
+
           <article className="p-5 bg-linear-to-b from-white to-blue-50/30 rounded-2xl border border-blue-100 border-l-4 border-l-blue-600">
             <h3 className="m-0 mb-2.5 text-base font-bold text-blue-700">Current Focus: MERN Stack</h3>
             <p className="m-0 text-slate-500 text-sm leading-relaxed">Building dynamic, full-stack web applications using JavaScript (ES6+), Node.js, Express, and MongoDB.</p>

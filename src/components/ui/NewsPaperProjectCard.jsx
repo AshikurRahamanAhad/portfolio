@@ -5,8 +5,8 @@ export default function NewsPaperProjectCard(
   title = "NewsPaper Site",
   description = "A full-stack news website with user authentication.",
   tags = ["MongoDB", "Express", "React", "Node.js", "TailwindCSS", "JWT", "REST API", "Axios", "Vite", "React Router", "Bcrypt"],
-  liveLink = "#",
-  githubLink = "#",
+  liveLink = "https://newsportalsite.vercel.app/",
+  githubLink = "https://github.com/AshikurRahamanAhad/news-portal-website",
 }) {
   return (
     <div className="relative inline-block group">
