@@ -2,6 +2,7 @@
 
 import React from "react";
 import NewsPaperProjectCard from "../ui/NewsPaperProjectCard";
+import CalculatorProjectCard from "../ui/CalculatorProjectCard";
 export default function ProjectGrid() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function ProjectGrid() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          
+          <CalculatorProjectCard />
           <NewsPaperProjectCard />
 
           <article className="p-5 bg-linear-to-b from-white to-blue-50/30 rounded-2xl border border-blue-100 border-l-4 border-l-blue-600">
