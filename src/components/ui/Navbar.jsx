@@ -44,9 +44,15 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/Ashikur_Rahaman_Ahad_Resume.pdf" download className="no-underline text-slate-700 text-sm font-bold px-3 py-1.5 rounded-full border border-blue-600/40 hover:bg-blue-600/10 hover:text-blue-700 transition-all duration-200">
-              Resume
-            </a>
+<div className="inline-block p-1 rounded-full bg-linear-to-r from-indigo-600 via-sky-400 to-indigo-600 bg-size-[300%_300%] animate-[blue-indigo-shift_6s_ease_infinite]">
+  <a 
+    href="/Ashikur_Rahaman_Ahad_Resume.pdf" 
+    download 
+    className="block no-underline text-slate-700 text-sm font-bold px-3 py-1.5 rounded-full bg-white hover:bg-blue-500 hover:text-white transition-all duration-100"
+  >
+    Resume
+  </a>
+</div>
           </li>
         </ul>
 
