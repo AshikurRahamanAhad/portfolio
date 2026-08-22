@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Ashikur Rahaman Ahad | Portfolio",
   description: "I'm Ashikur Rahaman Ahad, a passionate full-stack developer. Explore my portfolio to see my projects, skills, and experience in creating engaging web applications.",
+  icons: {icon:"icon.png",
+          apple:"icon.png"
+  }
 };
 
 export default function RootLayout({ children }) {
