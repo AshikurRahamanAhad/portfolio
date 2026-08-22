@@ -11,7 +11,7 @@ export default function About() {
         </div>
         <div className="space-y-4 text-slate-500 text-base leading-relaxed">
 <p>
-  I am a <strong className="text-slate-800">Full-Stack Developer</strong> based in Cumilla, Bangladesh. 
+  I am a <strong className="text-slate-800">Full-Stack Developer</strong>. 
   I learned modern web development through {" "}
   <a 
     href="https://ostad.app/course/mern" 
