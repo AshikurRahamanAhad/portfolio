@@ -11,7 +11,7 @@ export default function Education() {
         <ul className="list-none m-0 p-0 grid gap-4">
           <li className="p-4 bg-blue-50/40 border-l-4 border-l-blue-600 rounded-xl text-slate-500 text-sm sm:text-base leading-relaxed">
             <strong className="text-slate-800">Bachelor of Social Science (BSS)</strong><br />
-            Bhasha Soinik Ajit Guha College, Cumilla (Ongoing)
+            Bhasha Soinik Ajit Guha College, Cumilla
           </li>
           <li className="p-4 bg-blue-50/40 border-l-4 border-l-blue-600 rounded-xl text-slate-500 text-sm sm:text-base leading-relaxed">
             <strong className="text-slate-800">Higher Secondary Certificate (HSC) - Humanities</strong><br />
