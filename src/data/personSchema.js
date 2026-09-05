@@ -12,7 +12,7 @@ export const personSchema = {
   "url": "https://ashikurrahamanahad.vercel.app/",
   "jobTitle": "Software Engineer & Full-stack Developer",
   "description": "Software Engineer and Full-stack Developer focused on architecting scalable digital systems, web interoperability, and modern system architectures.",
-  "image": ["https://ashikurrahamanahad.vercel.app/public/Ashikur-Rahaman-Ahad-profile.jpg", 
+  "image": ["https://ashikurrahamanahad.vercel.app/assets/Ashikur-Rahaman-Ahad-profile.jpg", 
             "https://upload.wikimedia.org/wikipedia/commons/9/96/Portrait_of_Ashikur_Rahaman_Ahad_in_September_2026.png"],
   "birthDate": "2003-07-20",
   "address": {
