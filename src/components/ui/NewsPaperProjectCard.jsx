@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import newspaper from '@/assets/NewsPaperSite.jpg';
 export default function NewsPaperProjectCard(
   {imageBg = "bg-lime-400",
   title = "NewsPaper Site",
@@ -16,9 +15,12 @@ export default function NewsPaperProjectCard(
         {/* Figure */}
         <div className={`relative ${imageBg} h-56 flex items-center justify-center overflow-hidden`}>
           <Image
-            src={newspaper}
+            src="/assets/NewsPaperSite.jpg"
             alt={title}
+            width={600}
+            height={400}
             className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+
           />
         </div>
 

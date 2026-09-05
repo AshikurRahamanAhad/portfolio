@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import newspaper from '@/assets/calculator.png';
 export default function CalculatorProjectCard(
   {imageBg = "bg-lime-400",
   title = "A Simple Calculator",
@@ -15,11 +14,13 @@ export default function CalculatorProjectCard(
       <div className="relative w-full h-full bg-blue-50 rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 group-hover:-translate-y-1">
         {/* Figure */}
         <div className={`relative ${imageBg} h-56 flex items-center justify-center overflow-hidden`}>
-          <Image
-            src={newspaper}
-            alt={title}
-            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-          />
+<Image
+  src="/assets/Calculator.png"
+  alt={title}
+  width={600}
+  height={400}
+  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+/>
         </div>
 
         {/* Body */}
