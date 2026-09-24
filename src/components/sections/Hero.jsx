@@ -21,7 +21,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-3.5 mt-7">
           <a href="#contact-section" className="inline-flex items-center justify-center min-h-11.5 px-5 text-sm font-bold text-white no-underline rounded-full bg-linear-to-r from-blue-800 via-sky-500 to-blue-800 bg-size-[300%_300%] animate-[blue-indigo-shift_6s_ease_infinite] shadow-lg shadow-blue-500/25 hover:-translate-y-0.5 transition-transform duration-200"> Lets connect </a>         
-          <a className="inline-flex items-center justify-center min-h-11.5 px-5 text-sm font-bold text-blue-700 no-underline rounded-full bg-white border border-blue-600/30 hover:-translate-y-0.5 transition-transform duration-200" href="/Ashikur_Rahaman_Ahad_Resume.pdf" download>Download resume</a>
+          <a className="inline-flex items-center justify-center min-h-11.5 px-5 text-sm font-bold text-blue-700 no-underline rounded-full bg-white border border-blue-600/30 hover:-translate-y-0.5 transition-transform duration-200" href="/Ashikur_Rahaman_Ahad.pdf" download>Download resume</a>
         </div>
 
         {/* Quick Stats */}
