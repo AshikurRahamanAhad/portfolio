@@ -15,7 +15,7 @@ export default function CalculatorProjectCard(
         {/* Figure */}
         <div className={`relative ${imageBg} h-56 flex items-center justify-center overflow-hidden`}>
 <Image
-  src="/assets/Calculator.png"
+  src="/assets/calculator.png"
   alt={title}
   width={600}
   height={400}
