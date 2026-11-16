@@ -85,3 +85,18 @@ body {
 .animate-tilt {
   animation: tilt 10s infinite linear;
 }
+/* Sets your first custom SVG as the main default cursor */
+body {
+  cursor: url('/cursors/default.svg') 0 0, auto;
+}
+
+/* Sets your second custom SVG when hovering over links, buttons, and clicks */
+a, 
+button, 
+[role="button"], 
+input[type="submit"], 
+input[type="button"], 
+select, 
+label {
+  cursor: url('/cursors/pointer.svg') 0 0, pointer;
+}
